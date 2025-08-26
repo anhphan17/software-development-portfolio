@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+footer {
+    background-color: #567257;
+    color: #D9D8D5;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: 'DM Serif Display', serif;
+    border-top: 1px solid #ACAB9E;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0.5rem;
+}
+
+.footer-links a {
+    color: #D9D8D5;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ACAB9E;
+}
+

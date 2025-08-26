@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+nav {
+    background-color: #567257;
+    padding: 1rem;
+    font-family: 'DM Serif Display', serif;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #D9D8D5;
+    text-decoration: none;
+    font-weight: normal;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ACAB9E;
+}
