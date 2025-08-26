@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/software-development-portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/software-development-portfolio/static/js/main.911117ab.js",
+    "static/js/453.438d9e50.chunk.js": "/software-development-portfolio/static/js/453.438d9e50.chunk.js",
+    "index.html": "/software-development-portfolio/index.html",
+    "main.e6c13ad2.css.map": "/software-development-portfolio/static/css/main.e6c13ad2.css.map",
+    "main.911117ab.js.map": "/software-development-portfolio/static/js/main.911117ab.js.map",
+    "453.438d9e50.chunk.js.map": "/software-development-portfolio/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.911117ab.js"
+  ]
+}
