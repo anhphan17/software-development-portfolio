@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 footer {
-    background-color: #567257;
-    color: #D9D8D5;
+    background-color: #001f49;
+    color: #fff3f3;
     text-align: center;
     padding: 1.5rem;
     font-family: 'DM Serif Display', serif;
@@ -17,13 +17,13 @@ footer {
 }
 
 .footer-links a {
-    color: #D9D8D5;
+    color: #fff3f3;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #ACAB9E;
+    color: #f7e7ce;
 }
 

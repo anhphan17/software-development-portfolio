@@ -1,7 +1,28 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
-    return <h1>Home Page Works!</h1>;
+    return (
+        <div className="home-page" style={{ padding: "2rem", textAlign: "center" }}>
+            <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Hi, I'm Anh Phan</h1>
+            <p style={{ fontSize: "1.25rem", marginBottom: "2rem" }}>
+                I'm a software developer focused on building web and mobile applications.
+            </p>
+
+            <div>
+                <Link to="/projects">
+                    <button style={{ margin: "0.5rem", padding: "0.5rem 1rem" }}>
+                    View Projects
+                    </button>
+                </Link>
+                <Link to="/contact">
+                    <button style={{ margin: "0.5rem", padding: "0.5rem 1rem" }}>
+                        Contact Me
+                    </button>
+                </Link>
+            </div>
+        </div>
+    );
 }
 
 export default Home;

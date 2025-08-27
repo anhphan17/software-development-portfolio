@@ -1,7 +1,13 @@
 import React from "react";
 
 function Experience() {
-    return <h1>Experience Page Works!</h1>;
+    return (
+        <section className="experience">
+            <h1>Experience</h1>
+        </section>
+    
+    );
+
 }
 
 export default Experience;
