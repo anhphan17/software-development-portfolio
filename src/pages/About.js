@@ -10,8 +10,8 @@ function About() {
             </p>
 
             <h2>Education</h2>
-            <p>Georgia State University - J. Mack Robinson College of Business <br />
-                Bachelor's of Business Administration in Computer Information Systems
+            <p><strong>J. Mack Robinson College of Business, Georgia State University</strong><br/>
+            <i>Bachelor's of Business Administration in Computer Information Systems</i>
             </p>
 
             <h2>Skills</h2>

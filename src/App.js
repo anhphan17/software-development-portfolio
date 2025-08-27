@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
+import ExperienceDetail from './pages/ExperienceDetail';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import ProjectDetail from './pages/ProjectDetail';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/experience" element={<Experience />} />
+        <Route path="/experience/:id" element={<ExperienceDetail />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/projects/:id" element={<ProjectDetail />} />
         <Route path="/projects" element={<Projects />} />
