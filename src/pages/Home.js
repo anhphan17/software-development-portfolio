@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 function Home() {
     return (
         <div className="home-page" style={{ padding: "2rem", textAlign: "center" }}>
-            <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Hi, I'm Anh Phan</h1>
+            <h1 style={{ fontSize: "3rem", marginBottom: "1rem" }}>Hi, I'm Anh Phan!</h1>
             <p style={{ fontSize: "1.25rem", marginBottom: "2rem" }}>
-                I'm a software developer focused on building web and mobile applications.
+                I'm a software developer passionate about building apps that make a difference. 
+                From Java and React to Swift and mobile development, I focus on creating clean, engaging, and functional applications that solve real-world challenges.
             </p>
 
             <div>
