@@ -12,10 +12,32 @@ function ProjectDetail() {
 
     return (
         <div style={{ padding: "20px" }}>
-        <h1 style={{ color: "#001f49" }}>{project.title}</h1>
-        <p style={{ fontStyle: "italic" }}>{project.description}</p>
+        <h1 style={{ color: "#001f49", textAlign: "center" }}>{project.title}</h1>
+        <p style={{ fontStyle: "italic", textAlign: "center"}}>{project.date}</p>
+        
+
         <p><strong>Tech Stack:</strong> {project.tech}</p>
-        <p><strong>Date:</strong> {project.date}</p>
+
+        <p><strong>Description:</strong></p>
+        <p>{project.detailsDescription}</p>
+        <p><strong>Key Features:</strong></p>
+        <ul className="list-disc list-inside space-y-2">
+            {project.keyFeatures.map((feature, index) => (
+                <li key={index}>{feature}</li>
+            ))}
+        </ul>
+
+        <p><strong>Impact:</strong></p>
+        <p>{project.outcome}</p>
+
+        <h3><a href={project.link} target="blank" rel="noopener noreferrer"><strong>View Project</strong></a></h3>
+
+        
+
+        
+
+        
+        
         <p style={{ marginTop: "15px", whiteSpace: "pre-line" }}>{project.details}</p>
         <Link to="/projects">
             <button

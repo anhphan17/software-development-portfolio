@@ -5,7 +5,7 @@ import ProjectCard from "../components/ProjectCard";
 function Projects() {
     return (
         <div style={{ padding: "20px" }}>
-            <h1 style={{ color: "#001f49" }}>My Projects</h1>
+            <h1 style={{ color: "#001f49", textAlign: "center" }}>My Projects</h1>
             <div
             style={{
                 display: "flex",

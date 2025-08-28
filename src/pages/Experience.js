@@ -5,7 +5,7 @@ import experiences from "../data/experiences";
 function Experience() {
     return (
         <div style={{padding: "20px"}}>
-            <h1 style={{color: "#001f49"}}>My Experience</h1>
+            <h1 style={{color: "#001f49", textAlign: "center"}}>My Experience</h1>
             <div 
             style={{
                 display: "flex",

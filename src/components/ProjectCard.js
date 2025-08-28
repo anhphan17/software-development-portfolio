@@ -16,9 +16,10 @@ function ProjectCard({ project }) {
         }}
         >
             <h2 style={{ color: "#001f49", marginTop: "5px"}}>{project.title}</h2>
-            <p style={{ fontStyle: "italic" }}>{project.description}</p>
+            <p style={{ fontStyle: "italic"}}>{project.date}</p>
+            <p>{project.summary}</p>
             <p><strong>Tech:</strong> {project.tech}</p>
-            <p><strong>Date:</strong> {project.date}</p>
+            
             <Link to={`/projects/${project.id}`}>
                 <button 
                     style={{

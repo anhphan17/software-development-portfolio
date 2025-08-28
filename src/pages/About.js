@@ -3,9 +3,9 @@ import React from "react";
 function About() {
     return (
         <div className="about-page" style={{ padding: "2rem" }}>
-            <h2>About Me</h2>
+            <h1 style={{textAlign: "center"}}>About Me</h1>
             <p>
-                I'm a software developer with experience in Java, React, and mobile development. <br />
+                I'm a software developer with experience in Java, React, and mobile development.
                 I enjoy building interactive applications that solve real-world problems.
             </p>
 
