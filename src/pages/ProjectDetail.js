@@ -30,7 +30,31 @@ function ProjectDetail() {
         <p><strong>Impact:</strong></p>
         <p>{project.outcome}</p>
 
-        <h3><a href={project.link} target="blank" rel="noopener noreferrer"><strong>View Project</strong></a></h3>
+        {project.presLink && (
+            <h3>
+                <a
+                    href={project.presLink}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: "001f49", textDecoration: "underline"}}
+                >
+                    View Project Presentation
+                </a>
+            </h3>
+        )}
+
+        {project.repoLink && (
+            <h3>
+                <a
+                    href={project.repoLink}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    style={{ color: "001f49", textDecoration: "underline"}}
+                >
+                    View GitHub Repo
+                </a>
+            </h3>
+        )}
 
         
 

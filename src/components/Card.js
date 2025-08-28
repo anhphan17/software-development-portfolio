@@ -10,13 +10,16 @@ function Card({experience}) {
             padding: "15px",
             margin: "10px",
             width: "300px",
-            backgroundColor: "#f9f9f9"
+            backgroundColor: "#f9f9f9",
         }}
         >
             <h2 style={{color: "#001f49", marginTop: "5px"}}>{experience.title}</h2>
-            <p><strong>Company: </strong>{experience.company}</p>
+            <p><strong><i>{experience.company}</i></strong></p>
+            <p>{experience.summary}</p>
             <p><strong>Date: </strong>{experience.date}</p>
-            <p>{experience.details}</p>
+            
+            
+            
             <Link to={`/experience/${experience.id}`}>
                 <button
                     style={{
@@ -29,7 +32,7 @@ function Card({experience}) {
                         cursor: "pointer"
                     }}
                     >
-                        My Role
+                        More About This Role
                 </button>
             </Link>
         </div>

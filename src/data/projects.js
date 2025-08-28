@@ -14,7 +14,7 @@ const projects = [
         ],
         summary: "Responsive website that displays personal projects, technical skills, and professional experience.",
         outcome: "Delivered a professional, interactive portfolio that showcases technical skills and projects, enhancing personal branding and providing a polished platform for potential employers to evaluate capabilities.",
-        link: "https://github.com/anhphan17/software-development-portfolio"
+        repoLink: "https://github.com/anhphan17/software-development-portfolio"
     },
     {
         id: 2,
@@ -31,7 +31,7 @@ const projects = [
         ],
         summary: "iOS app that lets users discover, document and map local destinations with geotagged photos.",
         outcome: "Enabled users to visually document their journeys and revisit explored places offline, increasing engagement and usability for local explorers and travelers.",
-        link: "https://github.com/anhphan17/LocalExplorerApp"
+        repoLink: "https://github.com/anhphan17/LocalExplorerApp"
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ const projects = [
         ],
         summary: "System that tracks and analyzes inventory movements to optimize stock and prevent discrepancies.",
         outcome: "Reduced inventory erros, improved operational efficiency, and enhaced data governance across multiple warehouse locations, supporting better business decision-making.",
-        link: "https://www.canva.com/design/DAGWT8rrPC0/x1gWUZ96fRo1dVLtTsWVpA/view?utm_content=DAGWT8rrPC0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha23239d4ff"
+        presLink: "https://www.canva.com/design/DAGWT8rrPC0/x1gWUZ96fRo1dVLtTsWVpA/view?utm_content=DAGWT8rrPC0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha23239d4ff"
         
     
     },
@@ -68,7 +68,7 @@ const projects = [
         ],
         summary: "Android app that organizes, prioritizes, and manages daily tasks and notes.",
         outcome: "Helped users organize daily tasks more efficiently, improving productivity and task tracking for mobile users.",
-        link: "https://github.com/anhphan17/MemoList"
+        repoLink: "https://github.com/anhphan17/MemoList"
     },
     {
         id: 5, 
@@ -86,7 +86,7 @@ const projects = [
         ],
         summary: "Android app that stores, manages, and searches personal and professional contacts efficiently.",
         outcome: "Simplified personal and professional contact management, allowing users to store, access, and interact with contacts efficiently in an offline environment.",
-        link: "https://github.com/anhphan17/CIS4280ContactListProject"
+        repoLink: "https://github.com/anhphan17/CIS4280ContactListProject"
     },
     {
         id: 6, 
@@ -105,7 +105,7 @@ const projects = [
         ],
         summary: "Java platform that enables searching, booking, and managing airline flights with an admin panel.",
         outcome: "Delivered a scalable, database-driven system that mirrors real-world airline systems, improving understanding of full-stack development and complex data management.",
-        link: "https://github.com/anhphan17/CIS3270FlightProject"
+        repoLink: "https://github.com/anhphan17/CIS3270FlightProject"
     },
     
 ];
