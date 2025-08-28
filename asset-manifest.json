@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/software-development-portfolio/static/css/main.774c97b9.css",
+    "main.css": "/software-development-portfolio/static/css/main.87f45331.css",
     "main.js": "/software-development-portfolio/static/js/main.8b2bb081.js",
     "static/js/453.438d9e50.chunk.js": "/software-development-portfolio/static/js/453.438d9e50.chunk.js",
     "index.html": "/software-development-portfolio/index.html",
-    "main.774c97b9.css.map": "/software-development-portfolio/static/css/main.774c97b9.css.map",
+    "main.87f45331.css.map": "/software-development-portfolio/static/css/main.87f45331.css.map",
     "main.8b2bb081.js.map": "/software-development-portfolio/static/js/main.8b2bb081.js.map",
     "453.438d9e50.chunk.js.map": "/software-development-portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.774c97b9.css",
+    "static/css/main.87f45331.css",
     "static/js/main.8b2bb081.js"
   ]
 }
