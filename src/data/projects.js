@@ -54,6 +54,23 @@ const projects = [
     },
     {
         id: 4,
+        title: "Contact List Project (iOS)",
+        detailsDescription: "An iOS mobile application for managing personal contacts, allowing users to add, view, edit, and delete contacts efficiently. The app uses CoreData for persistent storage and features a clean, intuitive interface built with UIKit.",
+        tech: "Swift, UIKit, Xcode, CoreData, MapKit",
+        date: "March 2025 - April 2025",
+        keyFeatures: [
+            "Add new contacts with name, phone number, email, and optional notes.",
+            "Edit existing contact information and update details.",
+            "Delete contacts with swipe gestures.",
+            "Persistent storage using CoreData to save contacts locally.",
+            "MapKit integration to display contact locations on an interactive map."
+        ],
+        summary: "iOS app to efficiently manage personal contacts with a user-friendly interface and persistent storage.",
+        outcome: "Delivered a fully functional iOS contact management app, demonstrating proficiency in Swift, UIKit, and local data persistence.",
+        repoLink: "https://github.com/anhphan17/MyiOSContactList"
+    },
+    {
+        id: 5,
         title: "Memo List App",
         cardDescription: "Team Project (Android)",
         detailsDescription: "An Android mobile application for task management and note-taking, designed to help users organize their daily activities with priority sorting and filtering. The app allows for persistent storage of memos using SQLite and provides and intuitive interface for quick memo creation and navigation.",
@@ -71,8 +88,8 @@ const projects = [
         repoLink: "https://github.com/anhphan17/MemoList"
     },
     {
-        id: 5, 
-        title: "Contact List App",
+        id: 6, 
+        title: "Contact List App (Android)",
         cardDescription: "Solo Project (Android)",
         detailsDescription: "A native Android application for maintaining personal or professional contact information. The app allows users to add, edit, delete, and sort contacts efficiently, while securely storing data locally on the device.",
         tech: "Java, Android Studio, RecyclerView, SQLiteOpenHelper, SharedPreferences, Google Maps API",
@@ -89,7 +106,7 @@ const projects = [
         repoLink: "https://github.com/anhphan17/CIS4280ContactListProject"
     },
     {
-        id: 6, 
+        id: 7, 
         title: "Airline Reservation System",
         cardDescription: "Team Project (Java)",
         detailsDescription: "A Java application simulating a real-world airline booking system, including flight search, booking, cancellations, and administrative features. The system connects a GUI built in JavaFX with a relational database through JDBC, providing a fully functional end-to-end airline reservation experience.",
@@ -106,7 +123,7 @@ const projects = [
         summary: "Java platform that enables searching, booking, and managing airline flights with an admin panel.",
         outcome: "Delivered a scalable, database-driven system that mirrors real-world airline systems, improving understanding of full-stack development and complex data management.",
         repoLink: "https://github.com/anhphan17/CIS3270FlightProject"
-    },
+    }
     
 ];
 
