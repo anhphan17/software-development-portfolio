@@ -32,6 +32,7 @@ function Home() {
                 <h1 style={{ fontSize: "3rem", marginBottom: "1rem", color: "001f49" }}>
                     Hi, I'm Anh Phan!
                 </h1>
+                <h2><i>Software Developer</i></h2>
                 <p style={{ fontSize: "1.25rem", marginBottom: "2rem", lineHeight: "1.6" }}>
                 I'm a software developer passionate about building apps that make a difference. 
                 From Java and React to Swift and mobile development, I focus on creating clean, engaging, and functional applications that solve real-world challenges.
